@@ -21,6 +21,7 @@ public class ParkingSpotModel implements Serializable {
     private String licensePlateCar;
     @Column(nullable = false, length = 70)
     private String brandCar;
+
     @Column(nullable = false, length = 70)
     private String colorCar;
     @Column(nullable = false)

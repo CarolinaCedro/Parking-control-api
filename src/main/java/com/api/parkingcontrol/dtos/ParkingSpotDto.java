@@ -13,8 +13,6 @@ public class ParkingSpotDto {
     @NotBlank
     private String brandCar;
     @NotBlank
-    private String modelCar;
-    @NotBlank
     private String colorCar;
     @NotBlank
     private String responsibleName;
@@ -47,13 +45,7 @@ public class ParkingSpotDto {
         this.brandCar = brandCar;
     }
 
-    public String getModelCar() {
-        return modelCar;
-    }
 
-    public void setModelCar(String modelCar) {
-        this.modelCar = modelCar;
-    }
 
     public String getColorCar() {
         return colorCar;
